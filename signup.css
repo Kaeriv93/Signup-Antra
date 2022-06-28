@@ -64,6 +64,13 @@ input[type=checkbox], #check{
     cursor: pointer;
 }
 
+#reg{
+    color: white;
+    background-color:#3273dc;
+    padding: .1rem;
+    border-radius: .1rem;
+}
+
 #register{
     background-color:#3273dc;
 }
