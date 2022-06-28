@@ -20,14 +20,14 @@ input[type=text], input[type=password]{
     margin: 5px auto;
 }
 
-input[type=text]:focus, input[type=password]:focus{
-    outline: none !important;
-    border-color: #dbf3fa;
-}
-
 .signup{
     display: flex;
     justify-content: center;
+}
+
+.signup h1{
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 
 .terms{
@@ -78,4 +78,16 @@ input[type=checkbox], #check{
 
 #sign-in:hover{
     background-color: #64eab4;
+}
+
+@media screen and (max-width:368px){
+    .name input[type=text]{
+        width: 95%;
+        margin: 5px auto;
+    }
+}
+@media screen and (max-width:237px){
+    #sign-in, #register{
+        margin: 10px auto;
+    }
 }
