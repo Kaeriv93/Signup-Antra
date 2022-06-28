@@ -1,8 +1,44 @@
 body{
-     display: flex;
-     
+    font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-align: center;
 }
 
-.signup-form{
-    align-items: center;
+.signup{
+    display: flex;
+    justify-content: center;
+}
+
+.terms span{
+    font-size: 1rem;
+}
+
+.terms p{
+    font-size: .5rem;
+}
+
+#sign-in, #register{
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 0 10px;
+    font-size: .8rem;
+    width: 20%;
+    color: white;
+    cursor: pointer;
+}
+
+#register{
+    background-color:#3273dc;
+}
+
+#register:hover{
+    background-color:#209cee;
+}
+
+#sign-in{
+    background-color:#23d160;
+}
+
+#sign-in:hover{
+    background-color: #64eab4;
 }
