@@ -101,5 +101,18 @@ input[type=checkbox], #check{
 @media screen and (max-width:237px){
     #sign-in, #register{
         margin: 10px auto;
+        
+    }
+
+    .terms{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #check{
+        font-size: .4rem;
+    }
+    .terms p{
+        font-size: .35rem;
     }
 }
